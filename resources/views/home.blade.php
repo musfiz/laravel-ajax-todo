@@ -154,7 +154,7 @@
                                 <option value="Hindu">Hindu</option>
                                 <option value="Buddhist">Buddhist</option>
                                 <option value="Christianity">Christianity</option>
-                                <option value="">Other</option>
+                                <option value="Other">Other</option>
 
                             </select>
                         </div>
