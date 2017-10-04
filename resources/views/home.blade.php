@@ -223,6 +223,7 @@
             $('.modal-title').text('Add Student');
             method="add";
             $('#submit').html('<i class="glyphicon glyphicon-save"></i> Store Data');
+            $("#studentForm")[0].reset();
             $('#studentModal').modal('show');
         });
 
@@ -307,6 +308,7 @@
         $(document).on('click', '.deleteStudent', function () { //Delete Modal
             var id = $(this).attr('data-id');
             $('#deleteId').val(id);
+            $("#studentForm")[0].reset();
             $('#deleteModal').modal('show');
         });
 
