@@ -203,7 +203,7 @@
         $('#message').hide();
         var method="";
         var table = $('#student').dataTable({ // Show All data by jQuery dataTable
-            "bFilter": false,
+            "bFilter": true,
             "processing": true,
             "serverSide": true,
             "ajax": {
